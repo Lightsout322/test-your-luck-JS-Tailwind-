@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="src/output.css" rel="stylesheet">
+    <title>EtogoCazino!</title>
+</head>
+<body class="bg-[#7fffd4]/20 flex items-center text-center justify-center h-screen text-sm md:text-base lg:text-lg">
+
+<div class="mt-0">   
+    <div class="text-center  mb-0" >
+      <div class="text-sm font-bold text-red-500">1 крутка = 100 очков</div>
+      <div class="text-sm font-bold text-green-700">Победа = +1000 очков
+    </div>
+
+    <div class="flex flex-col mx-auto items-center justify-center mt-5 w-70 h-80  bg-[url('/casino.jpg')] bg-cover bg-no-repeat bg-bottom  my-auto pt-10 px-5 rounded-xl">
+   
+        <div class="text-xl font-bold text-amber-200 text-center bg-amber-500/70 rounded-xl px-1 p-0 mb-4 transition-all" id="play">Нажмите "Играть"</div>
+        <div class="flex flex-col mt-auto">
+            <div class=" bg-amber-50 font-mono rounded-xl text-black px-2 mb-2 mx-8 w-35 flex items-center justify-center transition-colors duration-300" id="balance">Баланс: 1000</div>
+            <button type="button" class="text-green-700 font-bold py-1 active:text-green-300 active:bg-red-400 rounded-2xl mb-1 bg-white hover:bg-green-400 trasition-colors ease-in-out duration-300 mx-9 disabled:opacity-50 disabled:cursor-not-allowed disabled:transition-none" id="playBtn">Играть</button>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
