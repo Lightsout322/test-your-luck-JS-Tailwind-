@@ -269,8 +269,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\/casino\.jpg\'\)\] {
-    background-image: url('/casino.jpg');
+  .bg-\[url\(\'\.\.\/src\/img\/casino\.jpg\'\)\] {
+    background-image: url('../src/img/casino.jpg');
   }
   .bg-cover {
     background-size: cover;
